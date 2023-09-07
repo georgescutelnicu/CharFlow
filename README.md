@@ -1,6 +1,6 @@
 ### Character-Level Language Model for Pet Names
 
-This is a character-level language model trained on a pet names dataset. Given the first three characters of a word, the model predicts the next character in the sequence. The goal of this project is to generate new pet names that fit within the same style as the original dataset. This project is inspired by the Andrej Karpathy's Makemore project
+This is a character-level language model trained on a pet names dataset. Given the first three characters of a word, the model predicts the next character in the sequence. The goal of this project is to generate new pet names that fit within the same style as the original dataset. This project is inspired by the Andrej Karpathy's [[MAKEMORE]](https://github.com/karpathy/makemore/) project
 
 ### Dataset
 The dataset used for training this model is a collection of almost 14k unique pet names. The dataset file is included in the repository as names.txt.
