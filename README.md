@@ -13,7 +13,9 @@ The model is implemented from scratch.
 ### Training
 To train the model, run the ```charflow.py``` script using the following command line:
 
-``` python charflow.py -f file_path -s steps -e embedding_size -hu hidden_units_size -b batch_size -c context_size ```
+```
+python charflow.py -f file_path -s steps -e embedding_size -hu hidden_units_size -b batch_size -c context_size
+```
 
 Default values:
 - steps: 200000
@@ -40,3 +42,6 @@ As you can see, the generated pet names are consistent with the style of the ori
 
 ### Conclusion
 This project demonstrates the use of character-level language models for generating new text based on a given input. While this particular model was trained on pet names, the same approach could be applied to other domains and datasets.
+
+### License
+MIT
